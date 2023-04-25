@@ -20,6 +20,7 @@ REQUIRED SECTIONS:
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <img src="./murple_logo.png" alt="logo" width="150"  height="auto" />
   <br/>
 
   <h3><b>Hello Microverse README Doc</b></h3>
