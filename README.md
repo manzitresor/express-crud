@@ -23,7 +23,7 @@ REQUIRED SECTIONS:
   <img src="./murple_logo.png" alt="logo" width="150"  height="auto" />
   <br/>
 
-  <h3><b>Hello Microverse README Doc</b></h3>
+  <h3><b>Hello_Microverse Project README Doc</b></h3>
 
 </div>
 
@@ -52,7 +52,7 @@ REQUIRED SECTIONS:
 
 # 📖 Hello Microverse <a name="about-project"></a>
 
-Hello Microverse is my first project as a Micronaut. Overtime, I'll get better.
+Hello Microverse is my first project as a Micronaut.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -81,7 +81,7 @@ Hello Microverse is my first project as a Micronaut. Overtime, I'll get better.
 > The key features added in this project.
 
 - HTML
-- Cascading Style Sheet
+- CSS
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -115,8 +115,8 @@ Clone this repository to your desired folder:
 Run this command
 
 ```sh
-  cd my-folder
-  git clone git@github.com:okemboi/Hello-Microverse.git
+  cd Folder_Name
+  git clone git@github.com:manzitresor/Hello_Microverse.git
 ```
 
 ### Install
@@ -124,7 +124,7 @@ Run this command
 Install this project with:
 
 ```sh
-  cd Hello-Microverse
+  cd Hello_Microverse
   npm install
 ```
 
@@ -142,10 +142,11 @@ Open index.html using liver server extension.
 
 > This is a solo project, successfully submitted by myself;
 
-👤 Kemboi Kiptanui
+👤 Manzi Tresor
 
-- GitHub: [@githubhandle](https://github.com/okemboi)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kiptanuikemboi/)
+- GitHub: [@githubhandle](https://github.com/manzitresor)
+-Twitter: [@githubhandle](https://twitter.com/MANZITresor3)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/manzi-tresor-783b4022a/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -155,10 +156,10 @@ Open index.html using liver server extension.
 
 > Features to be added in this project include.
 
-- JavasScript
-- Algorithims
-- Database
-- Ruby
+- Home Page
+- About Page
+- Contact Page
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -168,7 +169,7 @@ Open index.html using liver server extension.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/okemboi/Hello-Microverse/issues).
+Feel free to Reach Out To me 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -176,7 +177,7 @@ Feel free to check the [issues page](https://github.com/okemboi/Hello-Microverse
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, please support me by following me on Github; <a href ="https://github.com/okemboi">Kemboi</a> and give a star to this project.
+If you like this project, please support me by following me on Github; <a href ="https://github.com/manzitresor/Hello_Microverse.git">Manzi</a> and give a star to this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -196,7 +197,7 @@ I would like to thank the Microverse team for making this program possible.
 
 - Which browser works best for this project?
 
-  - Any modern browser i.e. Firefox, Google Chrome,Microsoft Edge, Apple Safari, Opera, Brave, Vivaldi, DuckDuckGo, Chromium, Epic
+  - Any modern browser i.e.  Google Chrome,Firefox,Microsoft Edge, Apple Safari, Opera
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
