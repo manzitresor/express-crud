@@ -1,4 +1,3 @@
-# Hello-Microverse
 
 <a name="readme-top"></a>
 
