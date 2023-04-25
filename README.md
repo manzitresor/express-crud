@@ -140,13 +140,13 @@ Open index.html using liver server extension.
 
 ## 👥 Authors <a name="authors"></a>
 
-> This is a solo project, successfully submitted by myself;
+> Project Collaborators
 
 👤 Manzi Tresor
+👤 Zufan Elias
+👤 Aamir Asaram
 
-- GitHub: [@githubhandle](https://github.com/manzitresor)
--Twitter: [@githubhandle](https://twitter.com/MANZITresor3)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/manzi-tresor-783b4022a/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
