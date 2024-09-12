@@ -32,10 +32,22 @@ const postItemHandler = async(req,res) => {
     })
 }
 
+const deleteItemHandler = async(req,res) => {
+    const id = req.params.id;
+    fs.readFile('./data.json','utf-8',async(err,data) => {
+        let items;
+        items = await JSON.parse(data).filter(item => item.id !== id);
+    fs.writeFile('./data.json',JSON.stringify(items),() => {
+        res.status(200).json({message: "Deleted successful"})
+    })
+    })
+}
+
 
 module.exports = {
     getItemsHandler,
-    postItemHandler
+    postItemHandler,
+    deleteItemHandler,
 }
 
 
