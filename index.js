@@ -8,10 +8,12 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 dontenv.config();
+
 app.use('/api/docs',swaggerUi.serve);
 app.use('/api/docs',swaggerUi.setup(swaggerUiDocs));
 app.use(express.json());
 app.use('/api',itemsRouter);
+
 
 
 app.listen(port,()=> console.log(`Listening on PORT ${port}`));

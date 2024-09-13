@@ -18,7 +18,31 @@ const swaggerUiDocs = {
             name: "Items"
         }
     ],
-    
+    paths: {
+        "/api/items": {
+            get: {
+                tags: ["Items"],
+                description: "Fetch all items from the data.json file and return them as a response.",
+                responses: {
+                    200: {
+                        description: "Ok",
+                        content: {
+                            "application/json": {
+                                schema: {
+                                    type: "Json",
+                                    example: {
+                                        "item": "Laptop",
+                                        "description": "HP Lpt",
+                                        "price": "500"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+        }
+    }
 }
 
 module.exports = swaggerUiDocs
