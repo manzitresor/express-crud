@@ -53,10 +53,11 @@ const editItemHandler = (req,res) => {
 
 const deleteItemHandler = async(req,res) => {
     const id = req.params.id;
-    fs.readFile('./data.json','utf-8',async(err,data) => {
-        let UpdatedItems;
-        UpdatedItems = await JSON.parse(data).filter(item => item.id !== id);
-    fs.writeFile('./data.json',JSON.stringify(UpdatedItems),() => {
+    fs.readFile('./data.json','utf-8', (err,data) => {
+        items = JSON.parse(data)
+        index = items.findIndex(item => item.id === id);
+        items.splice(index, 1)
+    fs.writeFile('./data.json',JSON.stringify(items),() => {
         res.status(200).json({message: "Deleted successful"})
     })
     })
